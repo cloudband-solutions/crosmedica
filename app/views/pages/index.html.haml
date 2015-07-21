@@ -18,11 +18,14 @@
 %div#secondPage
   %h3 SERVICES
 
+
+
 %div#thirdPage
   .black
+    %h3 ABOUT US
     .row{:style => "text-align: justify;"}
       .col-md-7
-        .ui.green.tag.label{:style => "margin-top: 15%;"}
+        .ui.green.tag.label{:style => "margin-top: 1%;"}
           Company Profile
         %p{:style => "margin-top: 2%;"}
           The company was built through the partnership between two entrepreneurs 
@@ -52,7 +55,7 @@
             To comply 100% to legal and regulatory requirements for medical and diagnostic services/clinics.
           .item
             To continuously detect opportunities for improvement and implement quality improvement activities.
-      .col-md-5{:style => "margin-top: 10%;"}
+      .col-md-5{:style => "margin-top: 1%;"}
         .ui.styled.accordion{:style => "margin-top: 3%; float: center;"}
           .active.title
             %i.dropdown.icon
@@ -92,11 +95,61 @@
               medical and administrative staff because we care.
 
 
-  #fourthPage
-    %h3 MEET OUR TEAM
+#fourthPage
+  %h3 MEET OUR TEAM
 
 
 
+
+#fifthPage
+  %h3 CONTACT US
+  .row.contact
+    .col-md-3
+    .col-md-2
+      %h4 PHONE NUMBER
+      %span.line1
+      %span{:style =>"color: #9e9e9e;"}
+        %br
+        Monday -Friday 8:00am - 7:00 pm
+        %br
+        %br
+        (02) 440-4665
+        %br
+        0943417741
+    
+    .col-md-2
+      %h4 CLINIC ADDRESS
+      %span.line1
+      %span{:style =>"color: #9e9e9e;"}
+        %br
+        187-b2 Kalantiaw Street, Project 4, Quezon City
+    .col-md-2
+      %h4 EMAIL ADDRESS
+      %span.line1
+      %span{:style =>"color: #9e9e9e;"}
+        %br
+        crosmedicalabs@gmail.com
+    .col-md-3
+  .center
+    %form.ui.form
+      %h5 CONTACT FORM
+      .field
+        %label Name
+        .field
+          %input{:placeholder => "Name", :type => "text"}
+      .field
+        %label Email
+        .field
+          %input{:placeholder => "Email", :type => "text"}
+      .field
+        %label Message
+        %textarea{:placeholder => "Message", :type => "text"}
+      .ui.button{:tabindex => "0"} Submit
+    %div#up
+      %a{:href => "#firstPage"}
+        = image_tag "up.png"
+      
+    
 
 
 

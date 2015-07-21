@@ -38,14 +38,23 @@ body{
 }
 
 #thirdPage {
-  background-image: image-url("teeth.jpg");
+  background-image: image-url("medical-mascot.png");
+  background-repeat: no-repeat;
   font-family: 'Muli', sans-serif;
   height: 100%;
 }
 
+#thirdPage h3 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color:#888;
+  padding-top: 100px;
+}
+
 #fourthPage {
   height: 500px;
-  background: #fff;
+  background: #fafafa;
 }
 
 #fourthPage h3 {
@@ -56,8 +65,71 @@ body{
   padding-top: 100px;
 }
 
+#fifthPage {
+  height: 700px;
+  background: #fff;
+}
 
+#fifthPage h3 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color:#888;
+  padding-top: 100px;
+}
 
+#fifthPage h5 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color:#888;
+  padding-top: 10px;
+}
+
+.line {
+  position: absolute;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e6e6e6;
+  display: table;
+
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 135px;
+}
+
+.line1 {
+  position: absolute;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e6e6e6;
+  display: table;
+  padding-top: 10px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.contact {
+  margin-top: 40px;
+  text-align: center; 
+
+}
+
+.ui.form {
+  width: 300px;
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+   border-radius: 0;
+  width: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 257px;
+
+}
 #auther{
   font-size:17px;
   color:#80BAEA;
@@ -73,6 +145,14 @@ body{
   display: none;
   top: 450px;
 }
+
+#up{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
 
 #down img {
   width: 221px;
