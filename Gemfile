@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+  source 'https://rubygems.org'
 
 gem 'rails', '4.2.2'
 gem 'sqlite3'
@@ -14,6 +14,7 @@ gem 'devise'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 gem 'haml'
 gem 'jquery-ui-rails'
+gem 'dotenv-rails'
 group :development, :test do
   
   gem 'byebug'
