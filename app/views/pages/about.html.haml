@@ -1,0 +1,90 @@
+#about
+  %h1.ui.header
+    = image_tag "tooth.png"
+    About Us
+  .container-fluid
+    .row{:style => "text-align: justify;"}
+      .col-md-6
+        .ui.green.tag.label{:style => "margin-top: 12%;"}
+          Company Profile
+        %p{:style => "margin-top: 1%;"}
+          The company was built through the partnership between two entrepreneurs 
+          who consolidated their resources together and envisioned a service-oriented facility. 
+          Considering that not both owners are in the medical field but with ardent dedication 
+          and determination, a medical laboratory and diagnostic service clinic was conceived.
+        %p 
+          In December, 2014, our competent medical staff put up CROSMEDICA 
+          Medical Laboratory and Diagnostic Services in order to provide quality health care 
+          service. The clinic ventured into outpatient hospital service and ambulatory 
+          laboratory services.  The clinic is equipped with automated diagnostic machines 
+          rendered by our well-trained medical staff and medical technologists.
+        %p
+          Our clientele is aimed to cater to the health and medical laboratory needs of 
+          the community.  Though competition is vast and offers by the competitors are 
+          tempting, the concept of service oriented total health and medical laboratory care 
+          that is cost effective without compromising quality has been the main objective of 
+          CROSMEDICA Medical Laboratory and Diagnostic Services.
+
+        .ui.green.tag.label
+          Quality Objectives
+        .ui.bulleted.list
+          .item
+            To provide 95% or more customer satisfaction index in terms of quality and efficiency.
+          .item
+            To deliver prompt and accurate results within or less than 24 hours after completion and issuance of test results.
+          .item
+            To comply 100% to legal and regulatory requirements for medical and diagnostic services/clinics.
+          .item
+            To continuously detect opportunities for improvement and implement quality improvement activities.
+      
+      .col-md-6      
+        .ui.styled.accordion{:style => "margin-top: 3%;"}
+          .active.title
+            %i.dropdown.icon
+            Mission
+          .active.content
+            .ui.centered.image
+              = image_tag "mission.png"
+            %p
+              %b.ui.blue.header CROSMEDICA MEDICAL LABORATORY AND DIAGNOSTIC SERVICES 
+              is a community–oriented and client-focused health facility providing quality medical 
+              care and laboratory services for outpatient hospital and ambulatory laboratory 
+              services.  We are committed with utmost dedication, care and compassion.
+          .title
+            %i.dropdown.icon
+            Vision
+          .content.vision
+            .ui.centered.image
+              = image_tag "vision.png"
+            %p
+              %b.ui.blue.header CROSMEDICA MEDICAL LABORATORY AND DIAGNOSTIC SERVICES
+              will stand to be of service to the community with outmost quality and standard as a 
+              highly reputable medical laboratory in the country.
+          .title
+            %i.dropdown.icon
+            Quality Policy
+          .content
+            = image_tag "qp.jpg"
+            %p{:style => "margin-top: 1%;"}
+              We at 
+              %b.ui.blue.header CROSMEDICA MEDICAL LABORATORY AND DIAGNOSTIC SERVICES 
+              are totally committed to provide our customers the highest ideals of 
+              quality healthcare and satisfaction at the most competitive rate.
+
+            %p
+              We shall seek to continually improve our services by acquisition of modern, 
+              state of the art equipment, upgrading our facilities and maintaining a well-trained 
+              medical and administrative staff because we care.
+%section#aboutchair
+  .white
+    %h1 OUR TEAM
+
+
+
+
+
+:javascript
+  $(document).ready(function(){
+    $('.ui.accordion')
+      .accordion();
+  });

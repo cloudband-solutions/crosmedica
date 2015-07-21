@@ -1,0 +1,167 @@
+.row {
+  margin: 0;
+}
+.schedule {
+  background-color: #34495e;
+  color: white;
+  padding: 5px;
+  font-weight: normal;
+  .col-md-7, .col-md-5{
+    padding-left: 40px;  
+  }
+}
+
+.crosmedicanav {
+  background-color: white;
+  border-bottom-color: rgb(226, 226, 226);
+  img {
+    width: 250px;
+    padding-left: 20px;
+  }
+  .navcros {
+    padding-left: 20px;
+  }
+}
+
+.btn {
+  border-radius: 0;
+}
+
+
+// NAVIGATION
+
+.navbar-inverse {
+  background-color: transparent;
+  color: #090909;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgb(226, 226, 226);
+  color: #3498db;
+
+  a:hover {
+    color: #3498db;
+  }
+}
+
+.navbar-inverse .navbar-nav > li {
+  a:hover {
+    color: #3498db;
+    font-weight: bold;
+  }
+}
+
+.navbar-nav {
+  margin-top: 4px;
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #090909;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+ 
+}
+
+.navbar-inverse .navbar-toggle {
+   margin-left: 30px;
+   margin-top: 15px;
+}
+
+.navbar-toggle {
+  border-bottom-color: rgb(226, 226, 226);
+  float: left;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+
+
+
+// MEDIAQUERIES
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+{
+  .navbar-inverse .navbar-nav > li > a
+  {
+    font-size: 12px;
+  }
+
+  .schedule {
+    .col-md-7, .col-md-5{
+     
+      h4 {
+        font-size: 12px;
+      }
+    }
+
+    .col-md-5 {
+      padding-right: 20px;
+    }
+  }
+
+  .white {
+    margin-top: 100px!important;
+    background-color: rgba(255,255,255, 0.6)!important;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 10px;
+  }
+
+  .row {
+    margin-left: -15px!important;
+    margin-right: -15px!important;
+  }
+
+
+  
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+ 
+  .schedule {
+    display: none;
+  }
+
+  #firstPage {
+    h4 {
+      font-size: 17px!important;
+      top: 130px!important;
+    }
+  }
+
+  #auther {
+    top: 134px!important;
+    font-size: 12px!important;
+
+    .btn {
+      margin-top: 1%;
+    }
+  }
+
+  #down {
+    top: 385px!important;
+  }
+
+  #thirdPage {
+    height: 1450px!important;
+  }
+}
+
