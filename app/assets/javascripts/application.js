@@ -19,3 +19,4 @@
 //= require jquery.risingSun
 //= require functions
 //= require common
+//= require main

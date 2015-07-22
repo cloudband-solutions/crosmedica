@@ -23,8 +23,9 @@
 %div#thirdPage
   .black
     %h3 ABOUT US
-    .row{:style => "text-align: justify;"}
-      .col-md-7
+    .row
+      .col-md-1
+      .col-md-5
         .ui.green.tag.label{:style => "margin-top: 1%;"}
           Company Profile
         %p{:style => "margin-top: 2%;"}
@@ -55,7 +56,8 @@
             To comply 100% to legal and regulatory requirements for medical and diagnostic services/clinics.
           .item
             To continuously detect opportunities for improvement and implement quality improvement activities.
-      .col-md-5{:style => "margin-top: 1%;"}
+      .col-md-1
+      .col-md-4{:style => "margin-top: 2.5%;"}
         .ui.styled.accordion{:style => "margin-top: 3%; float: center;"}
           .active.title
             %i.dropdown.icon
@@ -93,12 +95,11 @@
               We shall seek to continually improve our services by acquisition of modern, 
               state of the art equipment, upgrading our facilities and maintaining a well-trained 
               medical and administrative staff because we care.
+      .col-md-1
 
 
 #fourthPage
   %h3 MEET OUR TEAM
-
-
 
 
 #fifthPage
@@ -136,19 +137,26 @@
       .field
         %label Name
         .field
-          %input{:placeholder => "Name", :type => "text"}
+          %input{:id => "name", :placeholder => "Name", :type => "text"}
       .field
         %label Email
         .field
-          %input{:placeholder => "Email", :type => "text"}
+          %input{:id => "email", :placeholder => "Email", :type => "text"}
       .field
         %label Message
-        %textarea{:placeholder => "Message", :type => "text"}
-      .ui.button{:tabindex => "0"} Submit
-    %div#up
-      %a{:href => "#firstPage"}
-        = image_tag "up.png"
+        %textarea{:id => "message", :placeholder => "Message", :type => "text"}
+      .ui.button{:id => "submit_form"} Submit
       
+#footer
+  .center
+    %b CROSMEDICA MEDICAL LABORATORY AND DIAGNOSTIC DERVICES
+    %br
+    All Rights Reserved.
+    %br
+    %h4
+      Powered by: 
+      = link_to "http://www.cloudbandsolutions.com", target: "_blank" do 
+        Cloudband Solutions, Co.
     
 
 
